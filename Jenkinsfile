@@ -14,7 +14,7 @@ pipeline {
             steps {
                 echo '==================== Checkout Stage ===================='
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/Projet-DevOps-YourName.git'
+                    url: 'https://github.com/AAlami04/Projet-DevOps-AlamiAbdessalam/.git'
                 echo 'Code récupéré avec succès depuis GitHub'
             }
         }
